@@ -41,6 +41,8 @@ class Student
     
   end 
   
+  def self.create 
+    artist = Artist.new(name, grade)
   
   
 end
