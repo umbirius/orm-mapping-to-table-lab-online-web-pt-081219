@@ -42,7 +42,7 @@ class Student
   end 
   
   def self.create(attributes) 
-    attribute.each {|key, value| self.send(("#{key}="), value)}
+    artist = artist.new(attribute.each {|key, value| self.send(("#{key}="), value)})
     artist.save
     artist
   end 
