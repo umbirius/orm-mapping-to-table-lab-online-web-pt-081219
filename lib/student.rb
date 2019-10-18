@@ -11,6 +11,9 @@ class Student
     @grade = grade 
   end 
   
+  def self.table 
+    
+  end 
   
   
 end
