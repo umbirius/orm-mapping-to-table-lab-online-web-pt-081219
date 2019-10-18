@@ -42,7 +42,7 @@ class Student
   end 
   
   def self.create(attributes) 
-    artist = Artist.new(name, grade)
+    artist = Student.new(name, grade)
     artist.save
     artist
   end 
