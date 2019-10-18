@@ -41,7 +41,7 @@ class Student
     
   end 
   
-  def self.create(name, grade) 
+  def self.create(attributes) 
     artist = Artist.new(name, grade)
     artist.save
     artist
