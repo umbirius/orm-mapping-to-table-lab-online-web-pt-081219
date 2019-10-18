@@ -41,10 +41,10 @@ class Student
     
   end 
   
-  def self.create(name:, grade:) 
-    artist = artist.new(attributes.each {|key, value| self.send(("#{key}="), value)})
-    artist.save
-    artist
+  def self.create(attributes) 
+    student = student.new(attributes.each {|key, value| self.send(("#{key}="), value)})
+    student.save
+    student
   end 
   
   
